@@ -66,3 +66,38 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+.titulo {
+  text-align: center;
+}
+
+.entrada p {
+  text-align: justify;
+}
+
+.informacion {
+  background-color: #c9c84a;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.informacion p {
+  margin: 0 0 .5rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.imagen1,
+.imagen2 {
+  text-align: center;
+}
+
+blockquote {
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: italic;
+  color: #525252;
+}
+
+</style>
