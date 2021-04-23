@@ -1,24 +1,21 @@
-# vue-blog-recetas-cssgrid
+# Blog de recetas 🍕 con Vue y CSS Grid 
 
-## Project setup
+## Instalación de dependencias 🔧
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## Arranque 🔑
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Capturas 📷
+- ### Vista desktop 💻
+![Vista desktop](screenshots/Screenshot_1.jpg).
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- ### Vistas mobile 📱 
+![Vista mobile](screenshots/Screenshot_2.jpg).
+![Vista mobile](screenshots/Screenshot_3.jpg).
+![Vista mobile](screenshots/Screenshot_4.jpg).
+![Vista mobile](screenshots/Screenshot_5.jpg).

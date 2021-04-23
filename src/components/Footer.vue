@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <p class="copyright">2018 Receta Fácil</p>
+    <p class="copyright">@2021 Receta Fácil by Gabriel Ballester</p>
   </footer>
 </template>
 
