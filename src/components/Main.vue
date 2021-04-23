@@ -55,7 +55,7 @@
     <div class="informacion">
       <p>30 Minutos</p>
       <p>4 Personas</p>
-      <p>$200</p>
+      <p>20€</p>
     </div>
     <div class="imagen1">
       <img src="@/assets/img/mini1.jpg" />
@@ -68,6 +68,51 @@
 </template>
 
 <style scoped>
+@media screen and (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: minmax(100px, max-content) auto minmax(
+        100px,
+        max-content
+      );
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1rem;
+  }
+
+  .titulo {
+    grid-column: 1/4;
+  }
+
+  .entrada {
+    grid-column: 2/3;
+    grid-row: 2/5;
+  }
+
+  .informacion {
+    grid-row: 2/3;
+  }
+
+  .imagen1 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+  }
+  .imagen2 {
+    grid-row: 4/5;
+  }
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo,
+  .entrada {
+    margin: 2rem;
+  }
+}
+
 .titulo {
   text-align: center;
 }
@@ -83,7 +128,7 @@
 }
 
 .informacion p {
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
   padding: 1rem;
   text-align: center;
 }
@@ -99,5 +144,4 @@ blockquote {
   font-style: italic;
   color: #525252;
 }
-
 </style>
