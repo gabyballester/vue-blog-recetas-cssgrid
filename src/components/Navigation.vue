@@ -8,3 +8,12 @@
         </nav>
     </div>
 </template>
+
+<style scoped>
+
+.navegacion nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+</style>

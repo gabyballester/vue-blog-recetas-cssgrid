@@ -1,14 +1,19 @@
 <template>
-  <Home msg="Welcome to Your Vue.js App"/>
+  <Home msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import Home from '@/views/Home';
+import Home from "@/views/Home";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    Home,
+  },
+};
 </script>
+
+<style>
+@import './assets/css/styles.css';
+
+</style>
